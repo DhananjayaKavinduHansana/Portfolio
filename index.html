@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dhananjaya Kavindu Hansana</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav>
@@ -23,11 +24,28 @@
                 <a href="">Services</a>
                 <a href="">Contact</a>
             </div>
+            <button data-modal-target="#modal" class="modal-button"><img src="./icon.png" class="nav-icon"></button>
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <img src="./icon.png" class="modal-icon">
+                    <div class="title"> I'm Dhananjaya Kavindu</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <a href="https://instagram.com/dhanu_kavi_2k21?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/DhananjayaKavi3?t=y0HDSnMApj-YbeomIl1aNw&s=09"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/dhanu.hansana.5"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https-in://www.linkedin.com/in/dhananjaya-kavindu-a9644a215"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/DhananjayaKavinduHansana"><i class="fab fa-github"></i></a>
+                </div>
+                <p class="modal-me">Follow me on </p>
+            </div>
+            <div id="overlay"></div>
             <header>Port<span>folio</span></header>
         </div>
     </nav>
     <nav class="mobile-nav">
-        <a href="#" id="about">Home</a>
+        <a href="#" id="#about">Home</a>
         <a href="#">About</a>
         <a href="#">Education</a>
         <a href="#">Skills</a>
@@ -45,12 +63,15 @@
             <script>
                 var typed = new Typed(".auto-input", {
                     strings: [" Designer", " Web Developer", " Softwear Engineering Student"],
-                    typeSpeed: 70,
-                    backSpeed: 70,
+                    typeSpeed: 80,
+                    backSpeed: 40,
                     loop: true
                 })
             </script>
         </div>
+    </div>
+    <div class="about" id="">
+        <a href="" class="src"></a>
     </div>
 <script src="./index.js"></script>
 </body>
