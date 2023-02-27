@@ -274,7 +274,7 @@ header:hover{
     min-height: 100vh;
     display: block;
     z-index: 98;
-    background-color: rgba(255, 255, 255, 0.87);
+    background-color: rgba(30, 29, 29, 0.933);
     padding-top: 120px;
     transition: 0.4s;
 }
@@ -300,7 +300,7 @@ header:hover{
 }
 
 .mobile-nav a.is-active, .mobile-nav a:hover{
-    background-color:#bdbdbd;
+    background-color:#ff9100;
     color: #2b2b2b;
 
 }
@@ -347,4 +347,15 @@ h1:hover {
 
 h2 .auto-input {
     color: #e7e7e7;
+}
+
+.about {
+    font-family: righteous;
+    color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    font-size: 15px;
+
 }
