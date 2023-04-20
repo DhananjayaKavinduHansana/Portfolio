@@ -5,7 +5,7 @@
 
 body{
     font-family: Kanit;
-    background-color: #2b2b2b;
+    background-color: #2e2e2e;
 }
 
 .menubox{
@@ -25,7 +25,7 @@ nav{
     z-index: 99;
     padding: 10px 30px;
     border-bottom: 1px  solid #7bff00;
-    /*background:  linear-gradient(rgba(90, 89, 89, 0.685),rgba(126, 123, 123, 0.452) );*/
+    
 
 }
 
@@ -57,10 +57,10 @@ nav{
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
     transition: 200ms ease-in-out;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(61, 61, 61);
     border-radius: 10px;
     z-index: 10;
-    background-color: #eeeeeec2;
+    background-color: #6666662f;
     width: 500px;
     max-width: 80%;
 }
@@ -88,7 +88,16 @@ modal.modal-icon {
     font-family: josefin sans;
     font-size: 1.25rem;
     font-weight: 900;
-    color: #464646;
+    color: #767676;
+}
+
+@media (max-width: 768px){
+    .modal-header .title {
+        font-family: josefin sans;
+        font-size: 1.0rem;
+        font-weight: 900;
+        color: #767676;
+    }
 }
 
 .modal-header .close-button {
@@ -315,8 +324,12 @@ h1 {
     font-weight: 800;
     position: flex;
     color: #7bff00;
+    transition: 2s;
 }
 
+h2 .auto-input {
+    color: #e7e7e7;
+}
 
 .text {
     position: static;
@@ -329,6 +342,32 @@ h1 {
     color: #ff9100;
 }
 
+
+.about{
+    display: flex;
+    align-items: center;
+    background:  linear-gradient(rgba(90, 89, 89, 0.685),rgba(126, 123, 123, 0.452) );
+}
+
+p{
+    padding: 10px;
+    margin: 5px;
+    font-family: josefin sans;
+    font-size: 20px;
+    color: #dfdfdf;
+    max-width: 75%;
+    border-right: 2px solid #ff9100;
+}
+
+.body-icon {
+    padding: 10px;
+    margin: 5px;
+    max-width: 50%;
+
+
+}
+
+
 @media (max-width: 760px){
     .text{
         font-size: 10px;
@@ -336,15 +375,24 @@ h1 {
 
     h1{
         font-family: josefin sans;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 400;
-        position: flex;
-        display: space-between;
+    }
+
+    p{
+        font-family: josefin sans;
+        font-size: 15px;
+        display: block;
+        max-width: 50%;
+    }
+
+    .body-icon {
+        padding: 10px;
+        margin: 5px;
+        max-width: 50%;
     }
 }
 
 
-h2 .auto-input {
-    color: #e7e7e7;
-}
+
 
