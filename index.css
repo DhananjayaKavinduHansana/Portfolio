@@ -60,7 +60,7 @@ nav{
     border: 2px solid rgb(61, 61, 61);
     border-radius: 10px;
     z-index: 10;
-    background-color: #6666662f;
+    background-color: #0d0d0d21;
     width: 500px;
     max-width: 80%;
 }
@@ -349,7 +349,7 @@ h2 .auto-input {
     background:  linear-gradient(rgba(90, 89, 89, 0.685),rgba(126, 123, 123, 0.452) );
 }
 
-p{
+p1{
     padding: 10px;
     margin: 5px;
     font-family: josefin sans;
@@ -361,11 +361,117 @@ p{
 
 .body-icon {
     padding: 10px;
-    margin: 5px;
+    margin-left:4%;
     max-width: 50%;
+    width: 200px;
+    height: 200px;
 
 
 }
+
+.m-skills{
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+    text-transform: uppercase;
+    width: auto;
+    margin: 5px auto;
+    color: #d0cac39e;
+    background:  linear-gradient(rgba(90, 89, 89, 0.685),rgba(126, 123, 123, 0.452) );
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+.m-skills li{
+    margin: 8px 0;
+    padding: 5px;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25.1);
+}
+
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span{
+    height: 8px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236,0,140,1), rgba(252,103,103,1)100%);
+}
+
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+
+.css{
+    width: 90%;
+    animation: css 3s;
+}
+
+.javascript{
+    width: 30%;
+    animation: javascript 3s;
+}
+
+.phython{
+    width: 70%;
+    animation: phython 3s;
+}
+
+ h2{
+    align-items: center;
+ }
+
+ h3{
+    margin: 5px;
+ }
+
+ @keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:90% ;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:90% ;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:30%;
+    }
+}
+
+@keyframes phython{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:70%;
+    }
+}
+
 
 
 @media (max-width: 760px){
@@ -379,7 +485,7 @@ p{
         font-weight: 400;
     }
 
-    p{
+    p1{
         font-family: josefin sans;
         font-size: 15px;
         display: block;
@@ -390,6 +496,19 @@ p{
         padding: 10px;
         margin: 5px;
         max-width: 50%;
+        width: 200px;
+        height: 200px;
+    }
+
+    .bar{
+        background: #353b48;
+        display: block;
+        height: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25.1);
     }
 }
 
