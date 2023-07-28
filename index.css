@@ -499,9 +499,9 @@ h3{
     width: 50%;
     margin: 1% auto;
     letter-spacing: 2px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -514,9 +514,9 @@ h3{
         width: 50%;
         margin: 1% auto;
         letter-spacing: 2px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
+        display: grid;
+        align-items: center;
+        justify-content: center;
     
     }
 }
